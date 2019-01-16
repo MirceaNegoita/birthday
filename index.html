@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Birthday</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <main id="main-body">
+
+        <div class="container">
+            <div class="reasons-container">
+                <div class="jumbotron" id="preview">
+                    <h1 class="display-4"><strong>HAPPY BIRTHDAY</strong></h1>
+                    <hr class="my-4">
+                    <p>Hello you wonderful human being, I just want to wish you a happy birthday and share so random, precious and fun moments from our journey. You are 25 years old right now and a full grown woman and I love you and am proud of I am. I am thankful that you are in my life and wanted to wish you a happy birthday</p>
+                    <hr class="my-4">
+                    <button onclick="displayFirstReason()" class="btn btn-primary btn-lg preview-button">BEGIN</button>
+                </div>
+
+                <div class="jumbotron" id="reason-1" style="display:none">
+                    <h1 class="display-4">The first picture that you sent me</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/1.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>It's curious what one can find when you dig up years of a facebook conversation, I scrolled trough countless images, selfies, photos of adventures, good times, I stumbled upon this, the first picture that you sent me with you in it, at that moment I taught to myself, hot damn I wish I lived in Iasi right now!</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backPreview()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displaySecondReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-2" style="display:none">
+                    <h1 class="display-4">Finally together</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/2.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>This is a photo that will always stay close to my heart, it is from our first nights we spent together as a couple, the first nights when we finnaly got together. After so many years after we both were thinking what if? I am so glad that you came into Galati that night, glad e underwhelming here. It was fun, extatic, our hearts with racing with love beats, nights fueled by passion, desire, moans and conversations about hopes, dreams, aspirations in life, laughter, wondering about what the future will be.</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backFirstReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayThirdReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-3" style="display:none">
+                    <h1 class="display-4">Photos, photos, photos!</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/3.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Pictures, pictures and again pictures, I do not think I have ever take this much pictures with anyone else, and surely did not send this much pictures to anyone else ever, but I also did not feel that warmth in my heart when I see on my phone "Dorina has sent a photo". I love when you send me pictures with you, it is really cute and always makes my day better.</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backSecondReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayFourthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-4" style="display:none">
+                    <h1 class="display-4">Silyness, happyness and sleeps</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/4.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Me loves sleeps, in all honestly I did not think I will take so much joy in sleeping with someone that much (not in that way you pervert), but with you it is so enjoyable, I can like literally take a day off and stay in pijamas all day and you are there with me, in the same outfit. I love that we can be lazy and just chill sometimes, doing nothing, just watching movies, it really feels like a break from all the busy routine and just some good old relaxation and being two sloths</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backThirdReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayFifthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-5" style="display:none">
+                    <h1 class="display-4">Your so cool</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/5.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Let's talk about you for a moment, you my amazing girlfriend , the girl who dances her ass of till her pants break, the only human being that I have met that match me in my ambition and laser like focus when working. The girl who does not take shit from people. The girl who sleeps like a mountain, works like an alcoholic, can carry herself in a deep conversation and has fun like there is no tommorow when she goes for it. I just want to remind you that you are an amazing individual who can do anything when she wants to and that I love you to deaht!</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backFourthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displaySixthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-6" style="display:none">
+                    <h1 class="display-4">My hometown and Easter eggs</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/6.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Got to say I did not bring any girls home, I did not want to include anyone into my life that much, to get them know a part of me that I never shown but it was easier with you, you wanted to share my life with, you I wanted to share everything with and I still do beloved, I still do. I took some time to reflect on some things and I am better man because of you, I am more patient, more kind, more forgiving, learnt to communicate better, learn to talk openly about my feelings(still working on that), but comparing me with the guy I was 1 year and a half go I am much better person and in no small part it is because of you</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backFifthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displaySeventhReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-7" style="display:none">
+                    <h1 class="display-4">And back from Moroco!</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/7.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>So we have got this case, we just experienced true long distance relationship and a major milestone in our relationship and the first time that we both realised, hey this can be over if we do not take care of it. It made me realise that damn she can become in a second if I do not treat her right and I made a commitment that I will try to be better, I know we had our downfall and fights since then also but this was an eye opening experience for me, it made me not want to take you for granted and made me appreciate you being in my life more</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backSixthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayEigthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-8" style="display:none">
+                    <h1 class="display-4">The Travel Date</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/8.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>I really hope we get more of these, yes please! I know that it was a hard reuning and we could basically feel the awkwardness in the air, but the godman the thrill of a new city, all the food we ate, all that awesome places that I got to visit with you were just senzational and I would not have seen any of them if it were not for you. I am grateful that you are in my life and that I got to experience this with you, I hope we can do it again </p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backSeventhReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayNinthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-9" style="display:none">
+                    <h1 class="display-4">A very happy Christmas</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/9.jpg" width="90%" height="90%">
+                        </div>
+                        <div class="col-md-6">
+                            <p>I was really looking forward the those two weeks. I still remember the day you came to Romania, I was like a child waiting to get his Christmas present, and boy what a present it was. Two weeks of peace, love, conversations of 3 A.M randomly walking in the street with you, holding hands and dancing to MANELE, MANELE, were just so enjoyable and so endearing. I felt so happy that I got to spent time with you and so sad when you were gone</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backEigthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <!-- Modal -->
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
